@@ -1,0 +1,367 @@
+Date,Category,Description,Amount
+2025-11-12,takeout,"Breakfast",400
+2025-11-12,groceries,"Cheese 300g",580
+2025-11-12,house,"Garbage can",550
+2025-11-17,takeout,"Burger",350
+2025-11-17,bills,"Cook sehai",5500
+2025-11-17,bills,"Maid alem",3500
+2025-11-17,groceries,"Abata owed",1100
+2025-11-17,groceries,"Cookies",300
+2025-11-17,health,"Therapy + ride ",3500
+2025-11-17,health,"Medication",2050
+2025-11-17,groceries,"Cheese",420
+2025-11-18,personal,"Energy card",2900
+2025-11-19,personal,"Me",300
+2025-11-19,health,"Therapy",1700
+2025-11-22,personal,"Scan",1800
+2025-11-22,health,"Uperio and 2 glove boxes",4360
+2025-11-22,doggy,"Dog food 3kilo",600
+2025-11-22,car,"Gas",3000
+2025-11-22,personal,"Tv & Coffee table (+shola 1k)",3000
+2025-11-22,takeout,"Werka breakfast bole ",775
+2025-11-22,personal,"Coffee 1k (paid back)",1300
+2025-12-25,takeout,"Burger",380
+2025-12-24,bills,"Loan",14625
+2025-12-24,health,"Medicine",3985
+2025-12-24,bills,"Internet",1059
+2025-12-24,bills,"Light bill",7561
+2025-12-24,bills,"Water",5600
+2025-12-24,groceries,"Store debt 2 weeks",9600
+2025-12-25,groceries,"Teff 40 kilo ",5230
+2025-12-25,personal,"Blue",300
+2025-12-24,personal,"Blue",600
+2025-12-24,personal,"Burger",380
+2025-12-24,takeout,"Burger",380
+2025-12-25,personal,"Blue",300
+2025-12-25,groceries,"Coffee beans",1300
+2025-12-25,groceries,"Baby formula ",1600
+2025-12-25,groceries,"Watermelon and cheese",531
+2025-12-25,bills,"Internet week package",400
+2025-12-26,takeout,"Burger",380
+2025-12-26,house,"Plastic Bucket ",250
+2025-12-26,personal,"Blue",240
+2025-12-26,groceries,"Tomato 2kilo",170
+2025-12-26,groceries,"Potato 3 kilo",150
+2025-12-26,groceries,"Powder",120
+2025-12-26,groceries,"Irsho 3",90
+2025-12-26,groceries,"Jar",130
+2025-12-26,groceries,"Cheese",550
+2025-12-26,personal,"Blue",360
+2025-12-26,house,"Light bulbs (yellow)",300
+2025-12-27,personal,"Blue",360
+2025-12-27,groceries,"Veggies (m)",500
+2025-12-27,groceries,"Milk, soda, paper and yellow bags",270
+2025-12-27,groceries,"Berberay 5kilo",5250
+2025-12-27,personal,"Blue",300
+2025-12-27,groceries,"Baby diapers",600
+2025-12-27,groceries,"Wipes",130
+2025-12-27,groceries,"Cheese",320
+2025-12-27,takeout,"Burger",380
+2025-12-27,bills,"Maintainance summit 2 months",2200
+2025-12-28,groceries,"Chicken feed 7kilo",770
+2025-12-28,takeout,"Burger",380
+2025-12-28,personal,"Blue 2x",500
+2025-12-28,groceries,"Baby Formula and coffee roob",2000
+2025-12-28,takeout,"Burger",380
+2025-12-28,groceries," trash bags (22)",210
+2025-12-29,takeout,"Burger",380
+2025-12-29,personal,"Blue",300
+2025-12-29,groceries,"Oil 1l",310
+2025-12-29,personal,"Mh",1000
+2025-12-29,takeout,"Buna",90
+2025-12-29,groceries,"Soda & bottled water",90
+2025-12-29,personal,"Blue",300
+2025-12-29,personal,"Blue",300
+2025-12-29,takeout,"Breakfast",210
+2025-12-29,bills,"Dog walker",4500
+2025-12-30,takeout,"Burger",380
+2025-12-30,groceries,"Toilet paper (2) soap bar & milk",220
+2025-12-30,personal,"Blue",440
+2025-12-30,takeout,"Breakfast",320
+2025-12-31,groceries,"Kesel big bag (summit)",2200
+2025-12-31,health,"Zeleke 4 days",3600
+2025-12-31,groceries,"Cheese",565
+2025-12-31,takeout,"Buna",30
+2025-12-31,groceries,"M (baby formula)",1400
+2025-12-31,groceries,"M (cheese) (4)",640
+2025-12-31,car,"Gas 10lit delivery ",2500
+2025-12-31,misc,"Chicken m & wubeet",2083
+2025-12-31,personal,"Blue",440
+2025-12-31,personal,"Blue",360
+2025-12-31,takeout,"Breakfast",315
+2025-12-30,misc,"Water and largo 2lt ",420
+2026-01-02,health,"Medication ",2830
+2026-01-02,misc,"Medicine m",480
+2026-01-04,doggy,"Food & soap ",2000
+2026-01-03,car,"Car wash",300
+2026-01-04,takeout,"Burger",280
+2026-01-04,personal,"Blue",240
+2026-01-04,bills,"Aynalem deduction ",1000
+2026-01-04,takeout,"Breakfast",200
+2026-01-04,house,"Tube house 1 meter ( summit)",70
+2026-01-03,personal,"Blue",440
+2026-01-03,misc,"Formula and baby lotion",1800
+2026-01-04,takeout,"Breakfast",460
+2026-01-02,groceries,"Water and wheat",250
+2026-01-02,car,"Gas 10lt",2500
+2026-01-04,misc,"Friend jay",200
+2026-01-04,health,"Medicine ",4608
+2026-01-05,doggy,"Chicken feed 5 kilo +2",550
+2026-01-05,takeout,"Burger",380
+2026-01-05,personal,"Blue",440
+2026-01-05,misc,"(m) Meat (1.2k) wipes (130) azeba (470)",2000
+2026-01-06,groceries,"Telba .5 kilo",170
+2026-01-06,groceries,"Oil 5lit",2050
+2026-01-05,personal,"Blue",240
+2026-01-06,personal,"Blue",500
+2026-01-06,misc,"Chicken (1500) azbesa (1300) bread (600) kitfo/tibs (1400)",6200
+2026-01-06,misc,"Rent - summit 2/3 payment (2 days late)",60000
+2026-01-05,bills,"Nursing bill (1 month late) (owe 2nd month)",75000
+2026-01-06,misc,"Dish 22 cafe (box & install)",4500
+2026-01-06,takeout,"Burger",380
+2026-01-06,house,"Water heater parts (1400) labor (2000) ",3400
+2026-01-06,health,"Maru lending ",1000
+2026-01-07,personal,"Blue",740
+2026-01-07,groceries,"Cookies abata",300
+2026-01-07,car,"Gas",5000
+2026-01-07,takeout,"Gena pizza dad",800
+2026-01-07,groceries,"Store bill 1/2 of 10,125",5000
+2026-01-07,misc,"Steve",700
+2026-01-08,personal,"Blue",600
+2026-01-08,takeout,"Burger",380
+2026-01-08,personal,"Mango",2400
+2026-01-08,misc,"Energy bill summit",1500
+2026-01-08,groceries,"Pen and pencils",200
+2026-01-09,takeout,"Burger",380
+2026-01-09,groceries,"Test 1",200
+2026-01-10,personal,"Blue",600
+2026-01-10,groceries,"Plastic bags & water",200
+2026-01-10,takeout,"Breakfast meat",1325
+2026-01-08,misc,"Diapers and 1 baby bottle",2000
+2026-01-10,personal,"Blue (3rd)",300
+2026-01-10,groceries,"Cheese",525
+2026-01-10,health,"Dentist antibiotics & mine",530
+2026-01-10,takeout,"Burger",380
+2026-01-10,groceries,"Telba ",350
+2026-01-11,takeout,"Burger",380
+2026-01-11,misc,"Wubet owed 8k",5000
+2026-01-11,personal,"Blue",360
+2026-01-11,takeout,"Burger for wubet",380
+2026-01-11,misc,"Cake for wubet goodbye",700
+2026-01-11,personal,"Blue",300
+2026-01-12,bills,"Aynalem paycheck (1k advance)",4000
+2026-01-12,misc,"Cafe water bottle ",3000
+2026-01-12,health,"Meds (amlo,atro,riv,panto,clop,sodium,upiro,spiro)",4680
+2026-01-12,misc,"Wilitow grace guard gift",500
+2026-01-13,misc,"Cheese (4)",300
+2026-01-13,groceries,"Store debt",9555
+2026-01-13,misc,"Formal (new)",1600
+2026-01-13,misc,"Meat,cororima,cheese",1100
+2026-01-13,bills,"Internet week package",500
+2026-01-13,misc,"M internet package",50
+2026-01-13,takeout,"Breakfast",720
+2026-01-13,bills,"House wifi",1050
+2026-01-14,takeout,"Chicken burger",800
+2026-01-15,car,"Cleaner spray delivery",900
+2026-01-15,misc,"Cheese others brook final debt",1100
+2026-01-15,groceries,"Steve car start up",300
+2026-01-15,takeout,"Burger",380
+2026-01-15,takeout,"Chocolate brownies",480
+2026-01-14,car,"7lit oil, flush, 5lit extra",5050
+2026-01-14,misc,"Cafe shiro ",2200
+2026-01-16,misc,"Extension plug/ divisor",800
+2026-01-16,misc,"Door screws/ screwdriver/4m water hose ",470
+2026-01-16,misc,"Baby formula (1500), watermelon (300) delivery(300)",2100
+2026-01-16,car,"Flat tire",1000
+2026-01-16,car,"Car wash ",350
+2026-01-17,misc,"M hair",550
+2026-01-17,takeout,"Burger",380
+2026-01-19,misc,"Abe - tsega kitfo",2600
+2026-01-19,groceries,"Cheese",720
+2026-01-19,groceries,"Meat 1k abata",1100
+2026-01-19,personal,"Blue",640
+2026-01-19,misc,"Buna (.5k) kolo, milk",720
+2026-01-19,misc,"Ride abe breakfast(first day)",850
+2026-01-19,misc,"Breakfast and coffee (abe Maru me)",830
+2026-01-19,health,"Diapers and 1k hospital debt ",4360
+2026-01-19,misc,"Ride back to summit",250
+2026-01-18,misc,"Baby formula",1350
+2026-01-18,misc,"Summit maid yordanos",4500
+2026-01-18,takeout,"Burger",380
+2026-01-18,personal,"Blue",500
+2026-01-19,misc,"Kitfo delivery fee",300
+2026-01-18,misc,"Tsega mom ride to Sheraton ",650
+2026-01-20,car,"Steve start up",500
+2026-01-20,doggy,"Dog food 4kilo",800
+2026-01-20,health,"Therapist 4 days",3600
+2026-01-20,health,"Medication",6675
+2026-01-20,personal,"Nic",2400
+2026-01-20,misc,"Tsega pizza hut",1830
+2026-01-20,misc,"Energy bill summit ",2400
+2026-01-21,misc,"Tsega Sheraton to dad ride",2000
+2026-01-21,misc,"Mhret Joshua hospital appointment",2100
+2026-01-21,misc,"Baby cap/beanie 2",1200
+2026-01-21,car,"Steve start up",300
+2026-01-21,personal,"Blue",460
+2026-01-21,car,"Gas ",3000
+2026-01-21,misc,"Abe wow burger Maru and I",1376
+2026-01-21,misc,"Tsega ride back sheraton",525
+2026-01-22,personal,"Blue",400
+2026-01-22,car,"Steve start up",300
+2026-01-21,health,"Hospital debt ( 5 day), gloves, ride debt",7000
+2026-01-22,misc,"Meat 1k m",1100
+2026-01-22,bills,"Light bill ",2488
+2026-01-22,misc,"Eggs m",120
+2026-01-21,takeout,"Burger ",533
+2026-01-21,misc,"Burger",1689
+2026-01-22,bills,"Sehai",5000
+2026-01-22,takeout,"Burger",380
+2026-01-22,misc,"Sugar 1k & soda",260
+2026-01-23,personal,"Blue + next day",620
+2026-01-23,groceries,"Store debt",9255
+2026-01-23,personal,"Blue + tomorrow",620
+2026-01-23,misc,"Burger house w with Maru",1518
+2026-01-23,misc,"Abe ride to haircut ",500
+2026-01-23,misc,"Abe haircut",400
+2026-01-23,bills,"Sehai 1k debt ",1000
+2026-01-23,misc,"Milk chips soda summit",290
+2026-01-23,groceries,"Plastic bags, socks,",430
+2026-01-23,car,"Steve start up",300
+2026-01-23,car,"Start up oil n spray",1400
+2026-01-23,misc,"Abe pizza hut dinner",1265
+2026-01-23,groceries,"Milk, soda, wipes and jar",410
+2026-01-23,misc,"Baby formula ",1350
+2026-01-23,misc,"Cafe water",3340
+2026-01-23,takeout,"Lunch Steve fiel bet",710
+2026-01-23,groceries,"Tsega groceries withdraw",10000
+2026-01-24,personal,"Blue ",620
+2026-01-24,car,"Steve start up",400
+2026-01-24,doggy,"Chicken feed",720
+2026-01-24,misc,"Meat 1k Summit",1100
+2026-01-24,Mercy,"Fg",85
+2026-01-25,takeout,"Soda",70
+2026-01-25,guests,"Car rental",431200
+2026-01-25,groceries,"Meat",1100
+2026-01-25,personal,"Blue",620
+2026-01-25,personal,"Blue - m threw it away",300
+2026-01-25,car,"Steve startup",300
+2026-01-25,mercy,"Azbea",1600
+2026-01-25,guests,"Abe safari unlimited week",800
+2026-01-26,mercy,"Meat 1k",1100
+2026-01-26,takeout,"Soda and chocolate ",170
+2026-01-26,mercy,"Baby formula new+ delivery",4700
+2026-01-28,personal,"Blue + new strong tomorrow",920
+2026-01-28,bills,"nursing",75000
+2026-01-28,mercy,"Toilet paper",100
+2026-01-28,health,"medication",4910
+2026-01-28,guests,"Abe voice & sms package",70
+2026-01-28,health,"Zeleke",3600
+2026-01-27,guests,"Abe chicken sandwich dinner awkaba",430
+2026-01-27,guests,"Tsega helping out steve",6000
+2026-01-27,mercy,"Soda,milk,chips, chocolate ",350
+2026-01-27,mercy,"Coffee 1k",1100
+2026-01-27,guests,"Coffee beans 1k (gift)",1100
+2026-01-27,mercy,"Meat 1/2kilo",550
+2026-01-27,bills,"Alem 2 months",10000
+2026-01-27,guests,"Driver unpaid portion ",5424
+2026-01-27,car,"Steve startup ",300
+2026-01-27,personal,"Blue",980
+2026-01-26,car,"Start up",300
+2026-01-26,mercy,"Soda chocolate ",115
+2026-01-28,doggy,"Dog food 6kilo",1600
+2026-01-31,mercy,"Meat 1k",1100
+2026-01-31,groceries,"Store debt",10405
+2026-01-31,mercy,"Steamer and travel bag",6500
+2026-01-31,car,"Start up",300
+2026-01-31,personal,"Blue",1080
+2026-01-31,mercy,"Soda chocolate shaver",470
+2026-01-31,mercy,"Baby Formula",1650
+2026-01-31,guests,"Car rental tsega",10000
+2026-01-30,mercy,"Chocolate soda",470
+2026-01-30,car,"Steve start up twice",500
+2026-01-30,car,"Steve start up twice",500
+2026-01-30,doggy,"Dog walker",4500
+2026-01-29,guests,"Tsega pizza",3965
+2026-01-29,mercy,"Meat 1/2kilo",550
+2026-01-29,health,"Diapers",4060
+2026-01-29,misc,"Cafe supply",2200
+2026-01-29,personal,"Blue",1000
+2026-01-29,personal,"Mango",2400
+2026-01-28,mercy,"Teff ",5000
+2026-02-01,health,"Gloves",1200
+2026-02-01,personal,"Blue",1160
+2026-02-02,mercy,"Baby formula",1650
+2026-02-03,house,"Internet",85
+2026-02-02,personal,"Blue",1160
+2026-02-02,car,"Steve startup",400
+2026-02-03,groceries,"Teff 20kilo",2740
+2026-02-01,house,"Generator gas transport apt to dad's",300
+2026-02-01,guests,"Unlimited package  ",550
+2026-02-03,personal,"Blue",1160
+2026-02-03,groceries,"Bag, soda, chocolate, chips",580
+2026-02-03,mercy,"Energy bill",3400
+2026-02-03,guests,"Pizza large @ apt ",1248
+2026-02-03,personal,"Screw set",5653
+2026-02-03,cafe,"Ahbay paycheck",8000
+2026-02-05,guests,"Abe gifts to maids & driver",4000
+2026-02-06,mercy,"2 months maintenance bill",2430
+2026-02-06,guests,"Tsega rental final (nebiu)",6068
+2026-02-07,misc,"Gift to j",300
+2026-02-07,health,"Medicine ",4930
+2026-02-07,mercy,"Order skin care device",1800
+2026-02-07,car,"Gas delivery 10lit",2500
+2026-02-07,health,"Zeleke therapist",3600
+2026-02-08,car,"Ride to dad's- morning",310
+2026-02-08,car,"Car wash",300
+2026-02-08,car,"Steve start up",300
+2026-02-08,mercy,"Brook groceries sugary",500
+2026-02-10,health,"Medication metro",2088
+2026-02-10,mercy,"White plug adapters 3",300
+2026-02-10,mercy,"Largo 2lt ",330
+2026-02-10,bills,"Cmc rent",120000
+2026-02-10,personal,"Blue",1160
+2026-02-10,takeout,"Burger",400
+2026-02-09,mercy,"Baby formula",1650
+2026-02-10,mercy,"Watermelon meat banana",1970
+2026-02-07,car,"Ride",306
+2026-02-11,takeout,"Breakfast maru +milk ",300
+2026-02-11,mercy,"Buna 1/2 + festa",800
+2026-02-11,personal,"Blue",1160
+2026-02-11,mercy,"Water + soda",170
+2026-02-11,mercy,"Mercy hair salon",900
+2026-02-11,groceries,"Dad's cookies",300
+2026-02-11,mercy,"Formula",1650
+2026-02-14,cafe,"Abenet paycheck",10000
+2026-02-14,groceries,"Store debt",10315
+2026-02-14,car,"Ticket police",400
+2026-02-12,personal,"Blue",860
+2026-02-12,doggy,"Dog food",1600
+2026-02-12,health,"Uperio",2700
+2026-02-12,health,"Diapers",3300
+2026-02-13,personal,"Blue",860
+2026-02-13,car,"Gas",2500
+2026-02-13,personal,"Nic",2400
+2026-02-14,bills,"Wifi dad",1060
+2026-02-14,personal,"Blue",1320
+2026-02-14,takeout,"Burger",450
+2026-02-15,mercy,"Meat 1k",1200
+2026-02-16,car,"Ride to dad",240
+2026-02-16,mercy,"Raw milk",120
+2026-02-16,car,"Ride back Summit ",260
+2026-02-16,personal,"Blue",1100
+2026-02-16,mercy,"Ajax, dish soap, soda",200
+2026-02-17,mercy,"Bathroom sink pipe",350
+2026-02-17,mercy,"Baby formula and bread stuff",1900
+2026-02-18,groceries,"Teff 20k",2750
+2026-02-18,car,"Ride to ajoah",170
+2026-02-18,mercy," baby appointment Ajorah",1500
+2026-02-18,bills,"Rent 3rd cmc",70000
+2026-02-18,mercy,"Fruit ",1240
+2026-02-18,doggy,"Dog food 6kilo ",900
+2026-02-18,car,"Gas 4.4k + 2.5k",6900
+2026-02-18,cafe,"Water bottles portion",2550
+2026-02-18,health,"Shaving cream dad",2700
+2026-02-18,car,"Ride dad to summit",300
+2026-02-18,mercy,"Tp, wipes ( 2)",270
+2026-02-18,mercy,"Maid",4500
+2026-02-18,personal,"Nic",2400
