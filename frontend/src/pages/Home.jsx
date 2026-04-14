@@ -1,70 +1,86 @@
 import { useEffect, useState } from "react";
 
 function Home() {
-  const [expenses, setExpenses] = useState([]);
-  const [file, setFile] = useState(null);
+  const [bills, setBills] = useState([]);
 
-  const fetchExpenses = async () => {
-    const res = await fetch("http://localhost:5001/expenses");
-    const data = await res.json();
-    setExpenses(data);
+  const fetchBills = async () => {
+    try {
+      const res = await fetch("http://localhost:5001/bills");
+      const data = await res.json();
+      setBills(data);
+    } catch (err) {
+      console.error("Error fetching bills:", err);
+    }
   };
 
   useEffect(() => {
-    fetchExpenses();
+    fetchBills();
   }, []);
 
-  const handleUpload = async () => {
-    if (!file) return alert("Select a file first");
-
-    const formData = new FormData();
-    formData.append("file", file);
-
-    const res = await fetch("http://localhost:5001/import", {
-      method: "POST",
-      body: formData,
-    });
-
-    const data = await res.json();
-    alert(`Import complete. ${data.count || 0} rows added.`);
-
-    fetchExpenses();
-  };
-
   return (
-    <div>
-      <h2>All Expenses</h2>
+    <div style={{ position: "relative", height: "100vh" }}>
 
-      {/* CSV IMPORT SECTION */}
-      <div style={{ marginBottom: 20 }}>
-        <input
-          type="file"
-          accept=".csv"
-          onChange={(e) => setFile(e.target.files[0])}
-        />
-        <button onClick={handleUpload}>Import CSV</button>
+      {/* FLOATING BILLS BOX */}
+      <div
+        style={{
+          position: "absolute",
+          top: 20,
+          right: 20,
+          width: 240,
+          background: "#f5f5f5",
+          padding: 12,
+          borderRadius: 8,
+          border: "1px solid #ddd"
+        }}
+      >
+        <strong>📌 Bills</strong>
+
+        {bills.length === 0 && (
+          <div style={{ fontSize: 13 }}>No bills</div>
+        )}
+
+        {bills
+          .sort((a, b) => new Date(a.dueDate) - new Date(b.dueDate))
+          .slice(0, 5)
+          .map((bill) => {
+            const daysLeft = Math.ceil(
+              (new Date(bill.dueDate) - new Date()) /
+              (1000 * 60 * 60 * 24)
+            );
+
+            return (
+              <div
+                key={bill._id}
+                style={{
+                  fontSize: 13,
+                  marginTop: 6,
+                  paddingBottom: 4,
+                  borderBottom: "1px solid #ddd"
+                }}
+              >
+                <div><strong>{bill.name}</strong></div>
+
+                <div style={{ color: "red" }}>
+                  ${bill.amount}
+                </div>
+
+                <div style={{ fontSize: 12 }}>
+                  {new Date(bill.dueDate).toLocaleDateString()}
+                </div>
+
+                <div
+                  style={{
+                    fontSize: 11,
+                    color: daysLeft <= 2 ? "red" : "gray"
+                  }}
+                >
+                  {daysLeft} days
+                </div>
+              </div>
+            );
+          })}
       </div>
 
-      <table border="1" cellPadding="5">
-        <thead>
-          <tr>
-            <th>Date</th>
-            <th>Category</th>
-            <th>Description</th>
-            <th>Amount</th>
-          </tr>
-        </thead>
-        <tbody>
-          {expenses.map((exp) => (
-            <tr key={exp._id}>
-              <td>{new Date(exp.date).toLocaleDateString()}</td>
-              <td>{exp.category}</td>
-              <td>{exp.description}</td>
-              <td style={{ color: "red" }}>{exp.amount}</td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
     </div>
   );
 }
