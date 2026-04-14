@@ -4,6 +4,7 @@ import Categories from "./pages/Categories";
 import Bills from "./pages/Bills";
 import AddExpense from "./pages/AddExpense";
 import Today from "./pages/Today";
+import Debt from "./pages/Debt";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Link to="/today">Today</Link> |{" "}
         <Link to="/categories">Categories</Link> |{" "}
         <Link to="/bills">Bills</Link> |{" "}
+        <Link to="/debt">Debt</Link> | {" "}
         <Link to="/add">Add Expense</Link> 
         
 
@@ -24,6 +26,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/categories" element={<Categories />} />
         <Route path="/bills" element={<Bills />} />
+        <Route path="/debt" element={<Debt />} />
         <Route path="/add" element={<AddExpense />} />
         <Route path="/today" element={<Today />} />
 

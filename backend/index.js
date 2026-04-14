@@ -6,7 +6,7 @@ const csv = require("csv-parser");
 const fs = require("fs");
 const Expense = require("./models/Expense");
 const Bill = require("./models/Bills");
-
+const Debt = require("./models/Debt");
 
 const app = express();
 app.use(cors());
@@ -128,6 +128,25 @@ app.delete("/bills/:id", async (req, res) => {
   } catch (err) {
     res.status(400).json({ error: "Failed to delete bill" });
   }
+});
+
+// GET all debts
+app.get("/debts", async (req, res) => {
+  const debts = await Debt.find();
+  res.json(debts);
+});
+
+// ADD debt
+app.post("/debts", async (req, res) => {
+  const newDebt = new Debt(req.body);
+  await newDebt.save();
+  res.json(newDebt);
+});
+
+// DELETE debt
+app.delete("/debts/:id", async (req, res) => {
+  await Debt.findByIdAndDelete(req.params.id);
+  res.json({ message: "Deleted" });
 });
 
 

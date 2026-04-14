@@ -75,41 +75,53 @@ function Bills() {
     });
   };
 
-  const daysRemaining = (dueDate) => {
+  // ✅ SIMPLE: always show next payment countdown
+  const getDaysUntilNext = (dueDate) => {
     const today = new Date();
-    const due = new Date(dueDate);
-    const diff = due - today;
-    return Math.ceil(diff / (1000 * 60 * 60 * 24));
+    today.setHours(0, 0, 0, 0);
+
+    let next = new Date(dueDate);
+    next.setHours(0, 0, 0, 0);
+
+    let diffDays = Math.ceil((next - today) / (1000 * 60 * 60 * 24));
+
+    // if past → roll forward monthly until future
+    while (diffDays < 0) {
+      next.setMonth(next.getMonth() + 1);
+      diffDays = Math.ceil((next - today) / (1000 * 60 * 60 * 24));
+    }
+
+    return diffDays;
   };
 
   return (
     <div>
       <h2>Bills</h2>
 
-      {/* Add/Edit Form */}
+      {/* FORM */}
       <form onSubmit={handleSubmit} style={{ marginBottom: 20 }}>
         <input
           placeholder="Bill Name"
           value={form.name}
-          onChange={e => setForm({...form, name: e.target.value})}
+          onChange={e => setForm({ ...form, name: e.target.value })}
         />
 
         <input
           type="number"
           placeholder="Amount"
           value={form.amount}
-          onChange={e => setForm({...form, amount: e.target.value})}
+          onChange={e => setForm({ ...form, amount: e.target.value })}
         />
 
         <input
           type="date"
           value={form.dueDate}
-          onChange={e => setForm({...form, dueDate: e.target.value})}
+          onChange={e => setForm({ ...form, dueDate: e.target.value })}
         />
 
         <select
           value={form.intervalType}
-          onChange={e => setForm({...form, intervalType: e.target.value})}
+          onChange={e => setForm({ ...form, intervalType: e.target.value })}
         >
           <option value="none">One-time</option>
           <option value="weekly">Weekly</option>
@@ -122,34 +134,51 @@ function Bills() {
             type="number"
             placeholder="Days interval"
             value={form.intervalDays}
-            onChange={e => setForm({...form, intervalDays: e.target.value})}
+            onChange={e => setForm({ ...form, intervalDays: e.target.value })}
           />
         )}
 
-        <button>{editingId ? "Update Bill" : "Add Bill"}</button>
+        <button>
+          {editingId ? "Update Bill" : "Add Bill"}
+        </button>
       </form>
 
-      {/* Bills List */}
+      {/* TABLE */}
       <table border="1" cellPadding="5">
         <thead>
           <tr>
             <th>Name</th>
             <th>Amount</th>
-            <th>Due</th>
-            <th>Days Left</th>
+            <th>Due Date</th>
+            <th>Next Payment</th>
             <th>Actions</th>
           </tr>
         </thead>
+
         <tbody>
           {bills.map(bill => (
             <tr key={bill._id}>
               <td>{bill.name}</td>
-              <td style={{ color: "red" }}>${bill.amount}</td>
-              <td>{new Date(bill.dueDate).toLocaleDateString()}</td>
-              <td>{daysRemaining(bill.dueDate)} days</td>
+
+              <td style={{ color: "red" }}>
+                ${bill.amount}
+              </td>
+
               <td>
-                <button onClick={() => handleEdit(bill)}>Edit</button>
-                <button onClick={() => handleDelete(bill._id)}>Delete</button>
+                {new Date(bill.dueDate).toLocaleDateString()}
+              </td>
+
+              <td>
+                {getDaysUntilNext(bill.dueDate)} days
+              </td>
+
+              <td>
+                <button onClick={() => handleEdit(bill)}>
+                  Edit
+                </button>
+                <button onClick={() => handleDelete(bill._id)}>
+                  Delete
+                </button>
               </td>
             </tr>
           ))}
